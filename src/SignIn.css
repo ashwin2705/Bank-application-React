@@ -8,7 +8,8 @@
   height: 100vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: white;
-  background-image:url("https://wallpaperbat.com/img/241932-open-banking-will-change-everythingeventually.jpg");
+  /* background-image:url("https://wallpaperbat.com/img/241932-open-banking-will-change-everythingeventually.jpg"); */
+  background: linear-gradient(rgb(223, 206, 173),rgb(229, 152, 10));
   
 /* background-size: 25px ;  */
 
@@ -40,10 +41,11 @@ input[type="submit"]:hover {
 }
 
 .login-form {
-  background-color: #D3D3D3;
+  background-color: white;
   padding: 10rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-left: 850px;
+  margin-left: 150px;
+  /* border-top-right-radius: 4px; */
   /* background-color: blue;*/
   
   
@@ -71,4 +73,7 @@ input[type="submit"]:hover {
   flex-direction: column;
   gap: 8px;
   margin: 10px;
+}
+.form{
+  border-top-right-radius: 4px;
 }

@@ -70,7 +70,7 @@ function SignIn() {
           {renderErrorMessage("pass")}
         </div>
         <div className="button-container">
-          <input type="submit" />
+          <button onClick={()=>navigate('/Nhome')}>LOGIN</button>
         
         </div>
         <br></br>

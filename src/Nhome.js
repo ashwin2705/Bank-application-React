@@ -3,7 +3,7 @@ import React from 'react'
 import './HHome.css';
 import { useNavigate } from 'react-router-dom';
 
-export default function Home() {
+export default function Nhome() {
 
     const navigate = useNavigate();
 
@@ -11,42 +11,42 @@ export default function Home() {
 
     <div className='body'> 
     <nav class="navbar background"> 
-        <ul class="nav-list"> 
+        <ul class='nav-list'> 
           
             <li><a href="#home">Home</a></li> 
             <div className='dropdown'>
                 <li><a href="#acdetails">Account Details</a></li> 
-                {/* <button className='dropbtn'>Account Details</button> */}
+
                  <div className='dropcontent'>
                   <a href='#pro'>Profile</a>
                     <a href='#bal'>Balance</a>
-                   
+        
                     
              </div> 
             </div>
             <li><a href="#trans">Transaction</a></li> 
             <li><a href='#Loan'>Loans</a></li> 
             <li><a href='#insu'>Insurance</a></li> 
-            <li><a href='#insu'>Contact</a></li> 
+            <li><a href='#con'>Contact</a></li>
             <li><a href='#about'>About</a></li>
-            
         </ul> 
 
         <div class="rightNav"> 
         
-            <button class="btm btn-sm" onClick={()=>navigate('/login')}>LOGIN</button> 
-            <button class="btn btn-sm" onClick={()=>navigate('/signup')}>SIGNUP</button> 
+            <button class="bt btn-sm" onClick={()=>navigate('/home')}>SIGN OUT</button> 
+            
             
         </div> 
     </nav> 
     <div>
         <div className='offer'>
-        <h1>What we offer for you</h1>
+        <h1 >What we offer for you</h1>
         <br></br>
         <p>We provide online instant cash loans with quick approval that suit your team
         </p>
         </div>
     <div className='mc'>
+            
         <div className='clogo'>
             <div className='aimg' >
 
@@ -56,13 +56,14 @@ export default function Home() {
             </h3>
             
             <ul className='ulh'>
-               <li className='ulh'>Borrow-₹50000 for 3 months</li>
-               <li className='ulh'>Interest rate - 292% pa fixed</li>
-               <li className='ulh'>Total amount payable - ₹63000</li>
-               <li className='ulh'>Representative - 1,286% APR</li>
+
+               <li >Borrow-₹50000 for 3 months</li>
+               <li  >Interest rate - 292% pa fixed</li>
+               <li >Total amount payable - ₹63000</li>
+               <li >Representative - 1,286% APR</li>
             
             </ul>
-        
+    
 
         
 
@@ -74,12 +75,11 @@ export default function Home() {
             <h3>
                 Insurance
             </h3>
-        
             <ul className='ulh'>
-                <li>Home Insurance</li>
-                <li>Health Insurance</li>
-                <li>Car Insurance</li>
-                <li>Bike Insurance</li>
+                <li >Home Insurance</li>
+                <li >Health Insurance</li>
+                <li >Car Insurance</li>
+                <li >Bike Insurance</li>
                 
             </ul>
            
@@ -94,9 +94,9 @@ export default function Home() {
 
             </h3>
             <ul className='ulh'>
-                <li>upto 7%-10%</li>
-                <li>Accured Interest</li>
-                <li>Compound Interest</li>
+                <li >upto 7%-10%</li>
+                <li >Accured Interest</li>
+                <li >Compound Interest</li>
             </ul>
         
 
@@ -104,11 +104,7 @@ export default function Home() {
         </div>
         
     </div>
-    <div className='blogo'>
-        <section>
-
-        </section>
-    </div>
+  
 
     
     <footer className="footer"> 
